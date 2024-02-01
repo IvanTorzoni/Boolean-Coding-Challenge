@@ -1,0 +1,74 @@
+/* Sfondo */
+body{
+  background-image: url('background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+  
+/* Contenitore */
+.box{
+  background-color: rgba(0, 0, 0, 0.5);;
+  border-radius: 40px;
+  padding-top: 60px;
+  padding-right: 60px;
+  padding-bottom: 60px;
+  padding-left: 60px;
+  margin: auto;
+  margin-top: 10%;
+  width: 65%;
+  /* colore testo */
+  color: #ffffff;
+}
+  
+/* Proprietà logo*/
+#logo{
+  margin-left: 40%;
+  width: 25%;
+}
+  
+/* Allineamento testo e colore header */
+header > h1{
+  text-align: center;
+  color: #4df800;
+}
+
+/* posizione pulsanti e colore sfondo */
+nav{
+  background-color: #4df800;
+  padding: 1%;
+  text-align: center;
+}
+  
+/* main content */
+main{
+  margin-top: 3%;
+}
+
+/* Formattazione di tutti i div appartenenti alla classe row */
+div.row> * {
+  display: inline-block;
+  margin: auto;
+  font-family: 'Roboto Mono', monospace;
+}
+
+/* caratteristiche comuni delle barre di carica dei monopattini */
+.LoadingBar1, .LoadingBar2, .LoadingBar3{
+  padding: 10px;
+  border-radius: 5px;
+}
+/* barra di carica monopattino 1 */
+.LoadingBar1{
+    background-color: #f1c232;
+    width: 30%;
+  }
+/* barra di carica monopattino 2 */  
+  .LoadingBar2{
+    background-color: #07ce00;
+    width: 70%;
+  }
+/* barra di carica monopattino 3 */  
+  .LoadingBar3{
+    background-color: #cc0000;
+    width: 5%;
+  }
